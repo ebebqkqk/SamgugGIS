@@ -1,0 +1,16 @@
+node_modules/
+.pnpm-store/
+dist/
+.vite/
+.env
+.env.*
+!.env.example
+
+# Local-only GIS source datasets. Do not commit CHGIS, DEM, or licensed raw files.
+data/raw/
+apps/web/public/data/raw/
+
+# Generated and temporary artifacts.
+tmp/
+coverage/
+*.log

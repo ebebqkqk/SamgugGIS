@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.0668, 30.5728]
+      },
+      "properties": {
+        "place_id": "ref_chengdu_modern",
+        "name_ko": "성도",
+        "name_zh": "成都",
+        "pinyin": "Chengdu",
+        "modern_hint": "현대 성도시 중심부를 가리키는 기준점. 촉한 수도/익주 전체 경계를 의미하지 않는다.",
+        "time_from": 184,
+        "time_to": 263,
+        "confidence": "B",
+        "accuracy_radius_m": 50000,
+        "source_ids": ["nga_gns", "scripta_sinica_ihp", "chgis_v6_research_only"],
+        "note": "공개 앱에서는 현대 기준점만 표시한다. CHGIS 기반 역사 행정구역 경계는 재배포 제한 때문에 포함하지 않았다."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.0294, 33.0738]
+      },
+      "properties": {
+        "place_id": "ref_hanzhong_modern",
+        "name_ko": "한중",
+        "name_zh": "漢中",
+        "pinyin": "Hanzhong",
+        "modern_hint": "현대 한중시 중심부를 가리키는 기준점. 한중군/전역 전체 범위 또는 전투 위치를 의미하지 않는다.",
+        "time_from": 184,
+        "time_to": 263,
+        "confidence": "B",
+        "accuracy_radius_m": 50000,
+        "source_ids": ["nga_gns", "hanzhong_gov_overview_2025", "scripta_sinica_ihp", "chgis_v6_research_only"],
+        "note": "한중시 인민정부 개요는 한중의 위치와 역사 문화 맥락을 설명한다. 지도 좌표는 현대 지명 기준점으로만 사용한다."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.2397, 30.3352]
+      },
+      "properties": {
+        "place_id": "ref_jingzhou_ancient_city",
+        "name_ko": "형주 고성/강릉 기준점",
+        "name_zh": "荊州古城/江陵",
+        "pinyin": "Jingzhou / Jiangling",
+        "modern_hint": "현대 형주 고성/강릉 일대 기준점. 후한 말 형주 전체 행정권역을 단일 점으로 단정하지 않는다.",
+        "time_from": 184,
+        "time_to": 263,
+        "confidence": "B",
+        "accuracy_radius_m": 30000,
+        "source_ids": ["nga_gns", "jingzhouqu_gov_ancient_city", "scripta_sinica_ihp", "chgis_v6_research_only"],
+        "note": "형주는 시대별 행정 범위가 크게 달라진다. 공개 MVP에서는 고성/강릉 기준점만 표시하고 경계 폴리곤은 로컬 검증 후 별도 처리한다."
+      }
+    }
+  ]
+}
