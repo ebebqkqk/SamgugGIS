@@ -7,27 +7,17 @@
     "year": null,
     "url": "https://geonames.nga.mil/geonames/GNSHome/index.html",
     "license": "No licensing requirements or restrictions in place for the use of GNS data; citation recommended.",
-    "notes": "현대 지명 기준점 좌표의 공개 배포 가능한 공식 출처. GNS도 좌표는 finding purpose용 근사값이라고 명시한다."
+    "notes": "현대 지명 표준명과 대략 좌표 확인용 공식 출처. GNS 좌표는 finding purpose용 근사값이므로 역사 행정구역, 고성 범위, 전투 위치의 직접 증거로 쓰지 않는다."
   },
   {
     "source_id": "hanzhong_gov_overview_2025",
     "title": "汉中概况",
     "type": "official_local_government_overview",
-    "author": "汉中市人民政府 / 汉中市地方志办公室",
+    "author": "汉中市地方志办公室 / 汉中市人民政府",
     "year": 2025,
     "url": "https://www.hanzhong.gov.cn/hzszf/mlhz/hzgk/202510/722788ee7a6140529f5ff921d51669ac.shtml",
     "license": "Government website; reuse terms must be checked before reproducing substantial text.",
-    "notes": "한중의 행정 위치, 지형 맥락, 역사 문화 개요 확인용 공식 지방정부 자료."
-  },
-  {
-    "source_id": "jingzhouqu_gov_ancient_city",
-    "title": "荆州古城历史文化旅游区",
-    "type": "official_local_government_heritage_page",
-    "author": "荆州区人民政府",
-    "year": 2019,
-    "url": "https://www.jingzhouqu.gov.cn/wljz/jzqgk/201911/t20191128_337500.shtml",
-    "license": "Government website; reuse terms must be checked before reproducing substantial text.",
-    "notes": "형주 고성/강릉성의 유적 위치와 성곽 개요 확인용 공식 지방정부 자료. 네트워크 타임아웃 가능성이 있어 원문 보관은 별도 필요."
+    "notes": "한중의 현대 행정 위치, 지형 맥락, 역사 문화 개요 확인용 공식 지방정부 자료. 2026-07-07 기준 본문 접근 및 핵심 문구 확인 완료."
   },
   {
     "source_id": "scripta_sinica_ihp",
@@ -37,7 +27,7 @@
     "year": null,
     "url": "https://www1.ihp.sinica.edu.tw/en/Research/Groups/scriptaSinica",
     "license": "Copyrighted database/service; use for manual verification and citation, not bulk redistribution.",
-    "notes": "정사 원문 대조를 위한 학술기관 운영 고전 DB. 원문 인용은 최소화하고 링크/메모 중심으로 관리한다."
+    "notes": "정사 원문 대조를 위한 학술기관 운영 고전 DB. 현재 공개 GeoJSON 좌표의 직접 출처가 아니라 향후 사건/지명 고증용 연구 참고자료로만 유지한다."
   },
   {
     "source_id": "chgis_v6_research_only",
@@ -47,7 +37,7 @@
     "year": 2016,
     "url": "https://chgis.fas.harvard.edu/data/chgis/v6/",
     "license": "Free for academic research; no commercial use, resale, or redistribution permitted.",
-    "notes": "역사 지명/행정구역 교차검증의 핵심 후보지만, 원본 및 파생 GIS 데이터는 공개 앱에 재배포하지 않는다."
+    "notes": "역사 지명과 행정구역 교차검증의 핵심 참고자료지만, 원본 및 파생 GIS 데이터는 공개 앱과 저장소에 재배포하지 않는다. 현재 공개 GeoJSON 좌표의 직접 출처로 연결하지 않는다."
   },
   {
     "source_id": "osm_copyright",
@@ -57,6 +47,6 @@
     "year": null,
     "url": "https://www.openstreetmap.org/copyright",
     "license": "Open Database License (ODbL)",
-    "notes": "배경 지도 타일 attribution 및 라이선스 확인용. 역사 지명/전투 근거로 사용하지 않는다."
+    "notes": "배경 지도 타일 attribution과 라이선스 확인용. 역사 지명, 전투, 행정구역의 근거 출처로 사용하지 않는다."
   }
 ]
