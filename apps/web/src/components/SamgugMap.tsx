@@ -22,7 +22,7 @@ const rasterStyle = {
   ],
 } as maplibregl.StyleSpecification;
 
-interface SangokMapProps {
+interface SamgugMapProps {
   places: PlaceFeature[];
   events: EventRecord[];
   selection: Selection | null;
@@ -32,7 +32,7 @@ interface SangokMapProps {
   onSelectEvent: (event: EventRecord) => void;
 }
 
-export function SangokMap({
+export function SamgugMap({
   places,
   events,
   selection,
@@ -40,7 +40,7 @@ export function SangokMap({
   showEvents,
   onSelectPlace,
   onSelectEvent,
-}: SangokMapProps) {
+}: SamgugMapProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const markersRef = useRef<maplibregl.Marker[]>([]);

@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { DetailPanel } from "./components/DetailPanel";
 import { EntityList } from "./components/EntityList";
 import { LayerToggles } from "./components/LayerToggles";
-import { SangokMap } from "./components/SangokMap";
+import { SamgugMap } from "./components/SamgugMap";
 import { Timeline } from "./components/Timeline";
 import { loadEvents, loadPlaces, loadSources } from "./data/loaders";
 import type { EventRecord, PlaceFeature, PlaceFeatureCollection, Selection, SourceRecord } from "./types/gis";
@@ -81,7 +81,7 @@ export default function App() {
     <main className="app-shell">
       <header className="app-header">
         <div>
-          <h1>SangokGIS</h1>
+          <h1>SamgugGIS</h1>
           <p>삼국지 역사 지리 인터랙티브 GIS</p>
         </div>
         <div className="header-status">
@@ -118,7 +118,7 @@ export default function App() {
           {loadError ? (
             <div className="load-error">{loadError}</div>
           ) : (
-            <SangokMap
+            <SamgugMap
               events={visibleEvents}
               onSelectEvent={selectEvent}
               onSelectPlace={selectPlace}
